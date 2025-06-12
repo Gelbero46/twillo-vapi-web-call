@@ -1,12 +1,13 @@
 # Node.js dependencies
 /frontend/node_modules
 /frontend/.env.local
+frontend/.next/
+frontend/out/
 
 # Python virtual environments
 /backend/.venv
 /backend/venv
 /backend/.env
-/backend/vapiTest.py/
 
 # Cred
 /cred.txt
@@ -28,16 +29,15 @@
 .env.*.local
 
 # next.js
-/.next/
-/out/
+
 
 # Build artifacts (optional)
-dist/
-build/
+frontend/dist/
+frontend/build/
 
 # Optional: Vercel / Netlify folders
-.vercel/
-.netlify/
+frontend/.vercel/
+frontend/.netlify/
 
 # Optional: Python packaging cache
 pip-wheel-metadata/
