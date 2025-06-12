@@ -6,9 +6,11 @@
 /backend/.venv
 /backend/venv
 /backend/.env
+/backend/vapiTest.py
 
 # Cred
 /cred.txt
+/
 
 # Python cache
 /backend/__pycache__/
